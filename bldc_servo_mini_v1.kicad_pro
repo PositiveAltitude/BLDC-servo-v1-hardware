@@ -61,12 +61,7 @@
       "drc_exclusions": [
         "clearance|92300000|92137500|10027b78-3929-4fa1-a80a-6da3fa63ac72|c059119b-4ccc-4bea-af56-df8bc32bf867",
         "clearance|92300000|93937500|f4d7742a-11d3-4d70-8600-f4ad7ccb5f84|1ba2a6b7-3cc8-47be-adc5-a6a31363bba1",
-        "clearance|92300000|95737500|c17e83b2-fe06-4573-87b2-ad54b499decd|bcfa5f2f-5edc-4b7b-a31d-79c2bc0d6a19",
-        "courtyards_overlap|101076493|107291960|c9dca314-61a6-4289-8df5-7e7e0ea198f8|ab5c1c5d-91dd-4fc5-bc52-d644f6332265",
-        "courtyards_overlap|103248787|89094661|4603cfd7-4fdc-46a8-b927-3e55e0b04a31|af5defa2-0231-4e11-8810-55006c9efdd9",
-        "courtyards_overlap|109939305|104200000|fde49ce9-60fd-4f83-a437-0c81864d089a|ab5c1c5d-91dd-4fc5-bc52-d644f6332265",
-        "courtyards_overlap|89822613|103961918|93af53e6-ca12-4296-a190-81f34eb7a4cd|f33aa1e8-4b7d-4b76-b598-33720dbe20ba",
-        "courtyards_overlap|97305000|105673452|c9dca314-61a6-4289-8df5-7e7e0ea198f8|f33aa1e8-4b7d-4b76-b598-33720dbe20ba"
+        "clearance|92300000|95737500|c17e83b2-fe06-4573-87b2-ad54b499decd|bcfa5f2f-5edc-4b7b-a31d-79c2bc0d6a19"
       ],
       "meta": {
         "version": 2

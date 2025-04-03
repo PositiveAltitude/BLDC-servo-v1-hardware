@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "3",
+        "cols": "5"
+    },
+    "tabs": {
+        "type": "corner",
+        "width": "4.5mm",
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.6mm",
+        "spacing": "0.9mm",
+	"offset": "-0.2mm",
+    },
+    "framing": {
+        "type": "tightframe",
+        "slotwidth": "2mm"
+    },
+    "post": {
+	"millradius": "0.9mm"
+    }
+}

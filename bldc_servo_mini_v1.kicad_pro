@@ -518,7 +518,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -587,7 +587,7 @@
           "group_by": false,
           "label": "Supplier Part",
           "name": "Supplier Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -624,13 +624,19 @@
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Part Name"
     },
     "connection_grid_size": 50.0,
     "drawing": {

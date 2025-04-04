@@ -3,7 +3,7 @@
         "hspace": "2mm",
         "vspace": "2mm",
         "rows": "3",
-        "cols": "5"
+        "cols": "3"
     },
     "tabs": {
         "type": "corner",

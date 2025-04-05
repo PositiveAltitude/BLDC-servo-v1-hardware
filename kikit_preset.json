@@ -2,8 +2,8 @@
     "layout": {
         "hspace": "2mm",
         "vspace": "2mm",
-        "rows": "3",
-        "cols": "4"
+        "rows": "2",
+        "cols": "3"
     },
     "tabs": {
         "type": "corner",

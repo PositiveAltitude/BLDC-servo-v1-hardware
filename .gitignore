@@ -19,13 +19,18 @@ fp-info-cache
 ~*.lck
 \#auto_saved_files#
 
+#IDE files
+\.idea
+*.iml
+
 # Netlist files (exported from Eeschema)
-*.net
+#*.net
 
 # Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+#*.dsn
+#*.ses
 
 # Exported BOM files
-*.xml
-*.csv
+#*.xml
+#*.csv
+

@@ -7,17 +7,32 @@
     },
     "tabs": {
         "type": "corner",
-        "width": "4.5mm",
+        "width": "4.5mm"
     },
     "cuts": {
         "type": "mousebites",
         "drill": "0.6mm",
         "spacing": "0.9mm",
-	"offset": "-0.2mm",
+	"offset": "-0.2mm"
     },
     "framing": {
         "type": "tightframe",
         "slotwidth": "2mm"
+    },
+    "tooling" : {
+        "type" : "4hole",
+        "size" : "2mm",
+        "hoffset" : "5mm",
+        "voffset" : "2.5mm",
+        "paste" : true
+    },
+    "fiducials" : {
+        "type" : "4fid",
+        "coppersize" : "1mm",
+        "opening" : "2mm",
+        "hoffset" : "10mm",
+        "voffset" : "3.85mm",
+        "paste" : true
     },
     "post": {
 	"millradius": "0.9mm"

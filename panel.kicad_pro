@@ -440,6 +440,60 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_9-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_10-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_11-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -450,11 +504,7 @@
     "netclass_patterns": [
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/OUT1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/PWM_L2"
+        "pattern": "Board_0-/CURRENT3"
       },
       {
         "netclass": "Board_0-Default",
@@ -462,63 +512,7 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(JP1-B)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-NC-Pad10)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/DRIVER_MODE"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/PWM_H2"
-      },
-      {
-        "netclass": "Board_0-Default",
         "pattern": "Board_0-/NRST"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/PWM_L1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/DRIVER_AVDD"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MISO"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/CURRENT2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/CAN_RX"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U3-Vref-Pad5)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-PUSH-Pad5)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-NC-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/DRIVER_SLEW"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-VDDA"
       },
       {
         "netclass": "Board_0-Default",
@@ -526,111 +520,11 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J1-MountPin-PadMP)"
+        "pattern": "Board_0-/CURRENT2"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-OUT-Pad15)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/SWDIO"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/CAN_L"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/VOLTAGE_SENCE"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/DRIVER_NFAULT"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/CS_EXTERNAL"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/SCK"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-W-Pad9)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/DRIVER_NSLEEP"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/OUT3"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/SWCLK"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J6-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/CAN_H"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/CS"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/CURRENT1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MOSI"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/PWM_H3"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(FPC1-Pad10)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-+3.3V"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/PWM_L3"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J4-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-V-Pad12)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/PWM_H1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J6-MountPin-PadMP)"
+        "pattern": "Board_0-/PWM_L2"
       },
       {
         "netclass": "Board_0-Default",
@@ -638,27 +532,23 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/CURRENT3"
+        "pattern": "Board_0-unconnected-(U2-NC-Pad3)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J4-MountPin-PadMP)"
+        "pattern": "Board_0-/SCK"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-GND"
+        "pattern": "Board_0-/CAN_H"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/OUT2"
+        "pattern": "Board_0-unconnected-(J6-MountPin-PadMP)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J1-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-NC-Pad4)"
+        "pattern": "Board_0-unconnected-(U2-NC-Pad2)"
       },
       {
         "netclass": "Board_0-Default",
@@ -666,135 +556,175 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-U-Pad11)"
+        "pattern": "Board_0-unconnected-(J4-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/CAN_RX"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PWM_H1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PWM_L3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-W-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MOSI"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FPC1-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-V-Pad12)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J4-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MISO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VDDA"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SWDIO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PWM_L1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/CAN_L"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/CS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/OUT2"
       },
       {
         "netclass": "Board_0-Default",
         "pattern": "Board_0-/DRIVER_CP"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DRIVER_SLEW"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SWCLK"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/CAN_TX"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PWM_H2"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MISO"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/DRIVER_AVDD"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-PUSH-Pad5)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/DRIVER_SLEW"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/CURRENT1"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-Vref-Pad5)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-GND"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/OUT1"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(FPC1-Pad10)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/OUT3"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J4-MountPin-PadMP)_1"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PWM_H3"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/SWCLK"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/CURRENT1"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(JP1-B)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+3.3V"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-NC-Pad2)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-NC-Pad4)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J1-MountPin-PadMP)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/VOLTAGE_SENCE"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-OUT-Pad15)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-U-Pad11)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/VOLTAGE_SENCE"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(JP1-B)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DRIVER_AVDD"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-OUT-Pad15)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MOSI"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/PWM_H1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U3-Vref-Pad5)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DRIVER_MODE"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DRIVER_NSLEEP"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DRIVER_NFAULT"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/PWM_L3"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/CS_EXTERNAL"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/PWM_L1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/CAN_L"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J6-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-W-Pad9)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DRIVER_GAIN"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J6-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/OUT1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J4-MountPin-PadMP)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/DRIVER_NSLEEP"
       },
       {
         "netclass": "Board_1-Default",
@@ -802,79 +732,7 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-NC-Pad10)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/CS"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/PWM_H2"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/SWDIO"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/SCK"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-VCC"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-+3.3V"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/OUT2"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-U-Pad11)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/PWM_L2"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/NRST"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-VDDA"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/CURRENT2"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-NC-Pad4)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(FPC1-Pad9)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/CAN_RX"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/OUT3"
+        "pattern": "Board_1-unconnected-(FPC1-Pad10)"
       },
       {
         "netclass": "Board_1-Default",
@@ -882,11 +740,75 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/PWM_H3"
+        "pattern": "Board_1-unconnected-(U2-NC-Pad1)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/CURRENT3"
+        "pattern": "Board_1-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/OUT2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/CS"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/NRST"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/CAN_TX"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/OUT1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MISO"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/CURRENT1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-+3.3V"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/SCK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PWM_L3"
       },
       {
         "netclass": "Board_1-Default",
@@ -894,63 +816,139 @@
       },
       {
         "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PWM_H1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/VOLTAGE_SENCE"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/CURRENT3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2-W-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MOSI"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PWM_L1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/CAN_RX"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/DRIVER_AVDD"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PWM_H2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2-U-Pad11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/DRIVER_GAIN"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PWM_L2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-VDDA"
+      },
+      {
+        "netclass": "Board_1-Default",
         "pattern": "Board_1-unconnected-(J1-MountPin-PadMP)_1"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J4-MountPin-PadMP)_1"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/SWDIO"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-OUT-Pad15)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J4-MountPin-PadMP)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-V-Pad12)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/OUT3"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/PWM_H2"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/SWCLK"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-PUSH-Pad5)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/CAN_L"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DRIVER_AVDD"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/CURRENT2"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-U-Pad11)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-Vref-Pad5)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CAN_L"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PWM_H3"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DRIVER_SLEW"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J1-MountPin-PadMP)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-VDDA"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-GND"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J1-MountPin-PadMP)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FPC1-Pad9)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DRIVER_GAIN"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J4-MountPin-PadMP)_1"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-NC-Pad4)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2-NC-Pad2)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DRIVER_NSLEEP"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-VCC"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J6-MountPin-PadMP)"
       },
       {
         "netclass": "Board_2-Default",
@@ -958,7 +956,31 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MOSI"
+        "pattern": "Board_2-unconnected-(J1-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PWM_L2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/VOLTAGE_SENCE"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/DRIVER_CP"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PWM_H2"
       },
       {
         "netclass": "Board_2-Default",
@@ -966,39 +988,11 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MISO"
+        "pattern": "Board_2-unconnected-(U2-NC-Pad10)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/PWM_L3"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J1-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/OUT3"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CAN_TX"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-VCC"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/PWM_H3"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U3-Vref-Pad5)"
+        "pattern": "Board_2-unconnected-(J6-MountPin-PadMP)"
       },
       {
         "netclass": "Board_2-Default",
@@ -1010,31 +1004,11 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CURRENT2"
+        "pattern": "Board_2-/CAN_TX"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CS_EXTERNAL"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/VOLTAGE_SENCE"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DRIVER_NFAULT"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-NC-Pad2)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/PWM_L2"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/PWM_L1"
+        "pattern": "Board_2-unconnected-(J1-MountPin-PadMP)"
       },
       {
         "netclass": "Board_2-Default",
@@ -1042,71 +1016,27 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CS"
+        "pattern": "Board_2-/CAN_L"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CURRENT3"
+        "pattern": "Board_2-/PWM_L1"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-GND"
+        "pattern": "Board_2-unconnected-(U2-NC-Pad2)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J6-MountPin-PadMP)_1"
+        "pattern": "Board_2-/DRIVER_NSLEEP"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DRIVER_CP"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/SWCLK"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CAN_H"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(FPC1-Pad9)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CAN_RX"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/CURRENT1"
+        "pattern": "Board_2-/DRIVER_AVDD"
       },
       {
         "netclass": "Board_2-Default",
         "pattern": "Board_2-/OUT1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/SCK"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(JP1-B)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J4-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DRIVER_MODE"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-NC-Pad10)"
       },
       {
         "netclass": "Board_2-Default",
@@ -1118,43 +1048,131 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J6-MountPin-PadMP)"
+        "pattern": "Board_2-Net-(JP1-B)"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(JP1-B)"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FPC1-Pad9)"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/DRIVER_NSLEEP"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2-V-Pad12)"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(FPC1-Pad10)"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2-NC-Pad1)"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/PWM_L2"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2-U-Pad11)"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-NC-Pad10)"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-Vref-Pad5)"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J1-MountPin-PadMP)_1"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MISO"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/OUT1"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MOSI"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/CURRENT2"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J4-MountPin-PadMP)_1"
       },
       {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/CURRENT3"
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/DRIVER_GAIN"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PWM_L3"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/CURRENT2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-GND"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J4-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/CAN_RX"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/CS"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/SWCLK"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-VDDA"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/CURRENT3"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PWM_H3"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/OUT3"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/CAN_H"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/SCK"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/CURRENT1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-VCC"
       },
       {
         "netclass": "Board_3-Default",
@@ -1166,43 +1184,7 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J6-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/PWM_H3"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-OUT-Pad15)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-NC-Pad4)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/PWM_H2"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/PWM_L3"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/SWDIO"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U3-Vref-Pad5)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/SWCLK"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-VDDA"
+        "pattern": "Board_3-unconnected-(FPC1-Pad10)"
       },
       {
         "netclass": "Board_3-Default",
@@ -1210,19 +1192,75 @@
       },
       {
         "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/CAN_TX"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/DRIVER_GAIN"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/SWCLK"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FPC1-Pad9)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/OUT2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/CURRENT3"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J6-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/CS"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_3-Default",
         "pattern": "Board_3-+3.3V"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/DRIVER_AVDD"
+        "pattern": "Board_3-/PWM_L3"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-W-Pad9)"
+        "pattern": "Board_3-unconnected-(U2-NC-Pad3)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/VOLTAGE_SENCE"
+        "pattern": "Board_3-/PWM_H3"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PWM_H1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/OUT1"
       },
       {
         "netclass": "Board_3-Default",
@@ -1234,75 +1272,7 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/NRST"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J1-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J4-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-U-Pad11)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-VCC"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/DRIVER_GAIN"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J6-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/PWM_L1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/CAN_TX"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/PWM_H1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(FPC1-Pad9)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-NC-Pad2)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/CAN_RX"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/CAN_H"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-PUSH-Pad5)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/DRIVER_MODE"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/DRIVER_SLEW"
+        "pattern": "Board_3-/PWM_L2"
       },
       {
         "netclass": "Board_3-Default",
@@ -1310,11 +1280,11 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U2-NC-Pad3)"
+        "pattern": "Board_3-/DRIVER_AVDD"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/OUT2"
+        "pattern": "Board_3-/PWM_H2"
       },
       {
         "netclass": "Board_3-Default",
@@ -1322,11 +1292,55 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/CS"
+        "pattern": "Board_3-unconnected-(U2-NC-Pad10)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J4-MountPin-PadMP)"
+        "pattern": "Board_3-/MISO"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-VDDA"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-VCC"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J4-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/CAN_RX"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2-W-Pad9)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/NRST"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/CAN_H"
       },
       {
         "netclass": "Board_3-Default",
@@ -1334,7 +1348,11 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/CS_EXTERNAL"
+        "pattern": "Board_3-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J4-MountPin-PadMP)"
       },
       {
         "netclass": "Board_3-Default",
@@ -1342,43 +1360,43 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MISO"
+        "pattern": "Board_3-unconnected-(J1-MountPin-PadMP)"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CURRENT1"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J1-MountPin-PadMP)_1"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-VCC"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/SWDIO"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J1-MountPin-PadMP)_1"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2-U-Pad11)"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CS_EXTERNAL"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/VOLTAGE_SENCE"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/OUT1"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PWM_L1"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/VOLTAGE_SENCE"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/DRIVER_MODE"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CURRENT2"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2-PUSH-Pad5)"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J4-MountPin-PadMP)_1"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/CURRENT2"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-NC-Pad10)"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-Vref-Pad5)"
       },
       {
         "netclass": "Board_4-Default",
@@ -1386,83 +1404,7 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CAN_RX"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/SCK"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MOSI"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(FPC1-Pad10)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/DRIVER_GAIN"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/PWM_H2"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/SWDIO"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/PWM_H3"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/DRIVER_AVDD"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-U-Pad11)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CAN_H"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-VDDA"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-+3.3V"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/OUT2"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CAN_L"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-V-Pad12)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MISO"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CURRENT3"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J6-MountPin-PadMP)"
+        "pattern": "Board_4-/SWCLK"
       },
       {
         "netclass": "Board_4-Default",
@@ -1470,39 +1412,7 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J4-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-NC-Pad2)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/PWM_L2"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U3-Vref-Pad5)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/DRIVER_NFAULT"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-W-Pad9)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(JP1-B)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/DRIVER_CP"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J1-MountPin-PadMP)"
+        "pattern": "Board_4-/DRIVER_GAIN"
       },
       {
         "netclass": "Board_4-Default",
@@ -1510,43 +1420,11 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/PWM_L3"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/PWM_L1"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/PWM_H1"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/DRIVER_NSLEEP"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/SWCLK"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-OUT-Pad15)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-PUSH-Pad5)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/NRST"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/OUT3"
-      },
-      {
-        "netclass": "Board_4-Default",
         "pattern": "Board_4-unconnected-(U2-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FPC1-Pad10)"
       },
       {
         "netclass": "Board_4-Default",
@@ -1554,7 +1432,59 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CAN_TX"
+        "pattern": "Board_4-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-VDDA"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J1-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J4-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-+3.3V"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/DRIVER_AVDD"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CURRENT2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CAN_H"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J4-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-Vref-Pad5)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2-OUT-Pad15)"
       },
       {
         "netclass": "Board_4-Default",
@@ -1562,15 +1492,167 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/CS"
+        "pattern": "Board_4-unconnected-(U2-V-Pad12)"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J6-MountPin-PadMP)_1"
+        "pattern": "Board_4-unconnected-(U2-W-Pad9)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CURRENT3"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CURRENT1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J1-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PWM_L1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CAN_RX"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/NRST"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/SCK"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PWM_L2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MISO"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CAN_L"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/DRIVER_CP"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J6-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PWM_H1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PWM_L3"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/OUT2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2-U-Pad11)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-VCC"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CAN_TX"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/OUT1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PWM_H3"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/OUT3"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/SWDIO"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/VOLTAGE_SENCE"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PWM_H2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MOSI"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/CS"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/NRST"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PWM_L3"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-VCC"
       },
       {
         "netclass": "Board_5-Default",
         "pattern": "Board_5-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/CURRENT2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PWM_L1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/DRIVER_CP"
       },
       {
         "netclass": "Board_5-Default",
@@ -1582,11 +1664,11 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/PWM_H1"
+        "pattern": "Board_5-VDDA"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-NC-Pad1)"
+        "pattern": "Board_5-/DRIVER_AVDD"
       },
       {
         "netclass": "Board_5-Default",
@@ -1598,127 +1680,7 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CAN_TX"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CAN_L"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-W-Pad9)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(JP1-B)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/DRIVER_CP"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/DRIVER_MODE"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CAN_H"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/DRIVER_GAIN"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J4-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J6-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CAN_RX"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CURRENT2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(FPC1-Pad9)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-NC-Pad2)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/DRIVER_AVDD"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/DRIVER_NSLEEP"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-V-Pad12)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/PWM_L2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(FPC1-Pad10)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-VDDA"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/PWM_L1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MOSI"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-+3.3V"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/PWM_L3"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CS_EXTERNAL"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/PWM_H3"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CS"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-VCC"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-GND"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-OUT-Pad15)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/DRIVER_NFAULT"
+        "pattern": "Board_5-/CURRENT3"
       },
       {
         "netclass": "Board_5-Default",
@@ -1726,55 +1688,11 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CURRENT1"
+        "pattern": "Board_5-/DRIVER_GAIN"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/OUT3"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/CURRENT3"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/SWDIO"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/NRST"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/OUT1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/PWM_H2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-PUSH-Pad5)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U3-Vref-Pad5)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-NC-Pad10)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/SWCLK"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J1-MountPin-PadMP)"
+        "pattern": "Board_5-unconnected-(FPC1-Pad9)"
       },
       {
         "netclass": "Board_5-Default",
@@ -1782,7 +1700,31 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-NC-Pad4)"
+        "pattern": "Board_5-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PWM_L2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-+3.3V"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/OUT1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MOSI"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FPC1-Pad10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/CAN_TX"
       },
       {
         "netclass": "Board_5-Default",
@@ -1790,19 +1732,139 @@
       },
       {
         "netclass": "Board_5-Default",
+        "pattern": "Board_5-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_5-Default",
         "pattern": "Board_5-/MISO"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-PUSH-Pad5)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/SWCLK"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-V-Pad12)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-Vref-Pad5)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/CURRENT1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PWM_H3"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PWM_H2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/CS"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J4-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J1-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J6-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/CAN_L"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PWM_H1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/CAN_RX"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/SWDIO"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-GND"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/CAN_H"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/OUT3"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-W-Pad9)"
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/PWM_H1"
+        "pattern": "Board_6-unconnected-(J6-MountPin-PadMP)"
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/SCK"
+        "pattern": "Board_6-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/OUT3"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/PWM_H2"
       },
       {
         "netclass": "Board_6-Default",
@@ -1810,15 +1872,47 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CS_EXTERNAL"
+        "pattern": "Board_6-unconnected-(U2-PUSH-Pad5)"
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/DRIVER_AVDD"
+        "pattern": "Board_6-unconnected-(U3-Vref-Pad5)"
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CAN_H"
+        "pattern": "Board_6-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-VCC"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/PWM_L3"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(FPC1-Pad10)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/CAN_TX"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/CURRENT3"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(FPC1-Pad9)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(U2-V-Pad12)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/SWCLK"
       },
       {
         "netclass": "Board_6-Default",
@@ -1830,71 +1924,7 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CAN_RX"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/MISO"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/OUT2"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/SWDIO"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-U-Pad11)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CURRENT2"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-NC-Pad10)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/PWM_H3"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/PWM_L2"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U3-Vref-Pad5)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/DRIVER_GAIN"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CAN_TX"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-+3.3V"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CURRENT1"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(J6-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-NC-Pad4)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(JP1-B)"
+        "pattern": "Board_6-unconnected-(J6-MountPin-PadMP)_1"
       },
       {
         "netclass": "Board_6-Default",
@@ -1902,59 +1932,7 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(J1-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-NC-Pad2)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/MOSI"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/PWM_L3"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(FPC1-Pad9)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-VCC"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-VDDA"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/OUT1"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-V-Pad12)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/DRIVER_NSLEEP"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(FPC1-Pad10)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CAN_L"
+        "pattern": "Board_6-/VOLTAGE_SENCE"
       },
       {
         "netclass": "Board_6-Default",
@@ -1962,7 +1940,7 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(J6-MountPin-PadMP)_1"
+        "pattern": "Board_6-/PWM_L2"
       },
       {
         "netclass": "Board_6-Default",
@@ -1970,39 +1948,15 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CS"
+        "pattern": "Board_6-VDDA"
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/CURRENT3"
+        "pattern": "Board_6-unconnected-(U2-NC-Pad2)"
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(J1-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-W-Pad9)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/OUT3"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/PWM_H2"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U2-OUT-Pad15)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/DRIVER_NFAULT"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/DRIVER_MODE"
+        "pattern": "Board_6-/CS_EXTERNAL"
       },
       {
         "netclass": "Board_6-Default",
@@ -2010,43 +1964,111 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/VOLTAGE_SENCE"
+        "pattern": "Board_6-/CURRENT1"
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/SWCLK"
+        "pattern": "Board_6-unconnected-(U2-NC-Pad1)"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(J4-MountPin-PadMP)_1"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/MISO"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/CURRENT3"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(J1-MountPin-PadMP)"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-NC-Pad10)"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(J1-MountPin-PadMP)_1"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/PWM_H1"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/OUT2"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-NC-Pad3)"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/PWM_H3"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/SCK"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(U2-NC-Pad3)"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/PWM_H3"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/DRIVER_NFAULT"
       },
       {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-NC-Pad2)"
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/MOSI"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/CAN_H"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/DRIVER_GAIN"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/PWM_H1"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(U2-U-Pad11)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(U2-W-Pad9)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/SCK"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/OUT1"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-+3.3V"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/CAN_RX"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/DRIVER_AVDD"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/CURRENT2"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/CS"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/SWDIO"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/CAN_L"
       },
       {
         "netclass": "Board_7-Default",
@@ -2054,47 +2076,15 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-W-Pad9)"
+        "pattern": "Board_7-Net-(JP1-B)"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/DRIVER_NSLEEP"
+        "pattern": "Board_7-unconnected-(J1-MountPin-PadMP)_1"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/CAN_TX"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/DRIVER_CP"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/MOSI"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/VOLTAGE_SENCE"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/CURRENT2"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(FPC1-Pad10)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/CAN_L"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(J6-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/NRST"
+        "pattern": "Board_7-/PWM_L2"
       },
       {
         "netclass": "Board_7-Default",
@@ -2102,31 +2092,15 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/SWDIO"
+        "pattern": "Board_7-VCC"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/DRIVER_NFAULT"
+        "pattern": "Board_7-unconnected-(U2-NC-Pad10)"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(J4-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/SWCLK"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(J6-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-VDDA"
+        "pattern": "Board_7-/CS"
       },
       {
         "netclass": "Board_7-Default",
@@ -2138,39 +2112,7 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(JP1-B)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-OUT-Pad15)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(J1-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-V-Pad12)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/PWM_L2"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/CURRENT1"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/OUT1"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/DRIVER_SLEW"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-U-Pad11)"
+        "pattern": "Board_7-/CURRENT3"
       },
       {
         "netclass": "Board_7-Default",
@@ -2178,27 +2120,7 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/CAN_H"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(FPC1-Pad9)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/PWM_L1"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-VCC"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/DRIVER_AVDD"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-PUSH-Pad5)"
+        "pattern": "Board_7-/CAN_RX"
       },
       {
         "netclass": "Board_7-Default",
@@ -2206,11 +2128,31 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/DRIVER_GAIN"
+        "pattern": "Board_7-/MOSI"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-GND"
+        "pattern": "Board_7-/PWM_H1"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/VOLTAGE_SENCE"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/CAN_L"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/DRIVER_AVDD"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/CURRENT1"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(J6-MountPin-PadMP)_1"
       },
       {
         "netclass": "Board_7-Default",
@@ -2218,15 +2160,15 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/CS"
+        "pattern": "Board_7-unconnected-(FPC1-Pad9)"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/PWM_L3"
+        "pattern": "Board_7-unconnected-(U2-NC-Pad1)"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U2-NC-Pad4)"
+        "pattern": "Board_7-/PWM_L1"
       },
       {
         "netclass": "Board_7-Default",
@@ -2234,135 +2176,123 @@
       },
       {
         "netclass": "Board_7-Default",
+        "pattern": "Board_7-VDDA"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(J4-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/SCK"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(J6-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/CURRENT2"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/DRIVER_GAIN"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/PWM_H3"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U2-U-Pad11)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U2-V-Pad12)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/OUT1"
+      },
+      {
+        "netclass": "Board_7-Default",
         "pattern": "Board_7-/OUT3"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/CAN_RX"
+        "pattern": "Board_7-/SWCLK"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(J1-MountPin-PadMP)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U2-NC-Pad4)"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-NC-Pad1)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(FPC1-Pad10)"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-NC-Pad10)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/CAN_H"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-NC-Pad4)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/DRIVER_CP"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(J1-MountPin-PadMP)_1"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/DRIVER_NSLEEP"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/DRIVER_NFAULT"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U2-W-Pad9)"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/DRIVER_GAIN"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U2-NC-Pad3)"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-V-Pad12)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(J4-MountPin-PadMP)"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/SWDIO"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/PWM_L3"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-NC-Pad3)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U2-OUT-Pad15)"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/MISO"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-GND"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/DRIVER_SLEW"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/CAN_TX"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(J6-MountPin-PadMP)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/SWDIO"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-W-Pad9)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/PWM_H1"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/OUT3"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U3-Vref-Pad5)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/CAN_TX"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/DRIVER_CP"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-VDDA"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(FPC1-Pad9)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/CURRENT1"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(J4-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/PWM_H2"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/PWM_L3"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/DRIVER_AVDD"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/PWM_H3"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/CS_EXTERNAL"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/MOSI"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/SWCLK"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-NC-Pad2)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/NRST"
       },
       {
         "netclass": "Board_8-Default",
@@ -2370,15 +2300,7 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/PWM_L2"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/VOLTAGE_SENCE"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(J4-MountPin-PadMP)"
+        "pattern": "Board_8-/MOSI"
       },
       {
         "netclass": "Board_8-Default",
@@ -2386,47 +2308,15 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/SCK"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/CURRENT2"
-      },
-      {
-        "netclass": "Board_8-Default",
         "pattern": "Board_8-/OUT1"
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-OUT-Pad15)"
+        "pattern": "Board_8-VDDA"
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/CAN_L"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(J6-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/CURRENT3"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/DRIVER_NSLEEP"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/CAN_RX"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-GND"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/DRIVER_MODE"
+        "pattern": "Board_8-/DRIVER_GAIN"
       },
       {
         "netclass": "Board_8-Default",
@@ -2434,7 +2324,19 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(FPC1-Pad10)"
+        "pattern": "Board_8-/CAN_TX"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/CURRENT3"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/PWM_H3"
       },
       {
         "netclass": "Board_8-Default",
@@ -2442,11 +2344,19 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-unconnected-(U2-U-Pad11)"
+        "pattern": "Board_8-/CURRENT1"
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/OUT2"
+        "pattern": "Board_8-/OUT3"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U2-V-Pad12)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U2-W-Pad9)"
       },
       {
         "netclass": "Board_8-Default",
@@ -2454,7 +2364,71 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/NRST"
+        "pattern": "Board_8-unconnected-(U2-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(J4-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(J1-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/PWM_H2"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/PWM_H1"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U2-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/CURRENT2"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/SCK"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/VOLTAGE_SENCE"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/MISO"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/PWM_L2"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/PWM_L3"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/DRIVER_NFAULT"
       },
       {
         "netclass": "Board_8-Default",
@@ -2462,7 +2436,759 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(JP1-B)"
+        "pattern": "Board_8-/DRIVER_AVDD"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(J1-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/NRST"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/DRIVER_CP"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/CAN_RX"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/SWCLK"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(FPC1-Pad10)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(FPC1-Pad9)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(J4-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/SWDIO"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/OUT2"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U2-U-Pad11)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(J6-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-GND"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/CAN_L"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-unconnected-(U3-Vref-Pad5)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(J6-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-V-Pad12)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/PWM_H2"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/OUT1"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/SCK"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(J4-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CS"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-VDDA"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CAN_H"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CURRENT1"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CAN_L"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DRIVER_GAIN"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/OUT2"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/SWDIO"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(J1-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/PWM_L3"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/PWM_L2"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(J1-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(FPC1-Pad10)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-VCC"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-W-Pad9)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CURRENT2"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CURRENT3"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(FPC1-Pad9)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/OUT3"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-GND"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DRIVER_AVDD"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-+3.3V"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CAN_TX"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U3-Vref-Pad5)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/PWM_H3"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DRIVER_CP"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/CAN_RX"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/NRST"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(J4-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-U-Pad11)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/SWCLK"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/MOSI"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/PWM_L1"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/PWM_H1"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/VOLTAGE_SENCE"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/MISO"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CAN_TX"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/SWCLK"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-GND"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/DRIVER_CP"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/DRIVER_GAIN"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(J1-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(J1-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(J4-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CAN_L"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CS"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CURRENT3"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CURRENT1"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(FPC1-Pad10)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CAN_H"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/SCK"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/SWDIO"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-U-Pad11)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/PWM_H1"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(J6-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/OUT2"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-VCC"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-W-Pad9)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-VDDA"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/PWM_H2"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CURRENT2"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/PWM_L2"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-V-Pad12)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-+3.3V"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/OUT1"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/VOLTAGE_SENCE"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U3-Vref-Pad5)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/OUT3"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/CAN_RX"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/NRST"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/PWM_L3"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(J4-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/MOSI"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/DRIVER_AVDD"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(FPC1-Pad9)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/PWM_L1"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/MISO"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/PWM_H3"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CS"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CS_EXTERNAL"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/PWM_H3"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-W-Pad9)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/PWM_L1"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-V-Pad12)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(J4-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/PWM_L3"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-VCC"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(FPC1-Pad10)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CAN_RX"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CAN_L"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-OUT-Pad15)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DRIVER_NSLEEP"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-GND"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(J6-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-NC-Pad10)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DRIVER_NFAULT"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/MISO"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/SWDIO"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(FPC1-Pad9)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/PWM_L2"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CAN_TX"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U3-Vref-Pad5)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-+3.3V"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/PWM_H1"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/OUT3"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-NC-Pad4)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/SWCLK"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CURRENT3"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DRIVER_SLEW"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CURRENT2"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CURRENT1"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/CAN_H"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/OUT2"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(J1-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(J6-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/OUT1"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DRIVER_AVDD"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/NRST"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DRIVER_MODE"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-PUSH-Pad5)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/MOSI"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DRIVER_CP"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DRIVER_GAIN"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(U2-U-Pad11)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-VDDA"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(J1-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/PWM_H2"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/VOLTAGE_SENCE"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(JP1-B)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-unconnected-(J4-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/SCK"
       }
     ]
   },
